@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+.transparent {
+    color: transparent;
+}
+
 .transbox {
     background: black;
     border-radius: 14px;
@@ -47,6 +51,28 @@ a {
     border-bottom: 1px solid red;
     outline: none;
     color: grey;
+}
+
+.title {
+    font-family: papyrus;
+    font-size: 28px;
+
+    background: rgb(250, 247, 178);
+    color: red;
+
+    border-radius: 30px;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-top-style: dotted;
+    border-right-style: dotted;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    margin-left: -10px;
+    margin-right: 60px;
 }
 
 .transbox input[type="submit"] {

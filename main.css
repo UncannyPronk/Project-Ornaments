@@ -5,6 +5,11 @@ img {
     margin-bottom: 30px;
 }
 
+head {
+    outline: none;
+    border: none;
+}
+
 body {
     background: black;
     text-align: center;
@@ -17,6 +22,25 @@ h2 {
     text-align: left;
     font-style: bold;
     margin-left: 180px;
+}
+
+h3 {
+    color: rgb(0, 255, 76);
+    text-align: center;
+    font-style: none;
+    margin-top: 80px;
+    font-family: papyrus, 'brush script mt';
+    font-size: 80px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-style: none;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-family: papyrus, 'brush script mt';
+    font-size: 40px;
 }
 
 li {
@@ -46,6 +70,10 @@ p {
     padding: 8px, 6px;
 }
 
+em {
+    color: transparent;
+}
+
 marquee {
     background: black;
     padding: 14px;
@@ -59,6 +87,9 @@ marquee {
 }
 
 .slogan input {
+    background: lightgrey;
+    opacity: 0.2;
+    color: black;
     border-radius: 10px;
     width: 45%;
     height: 48px;
@@ -69,7 +100,8 @@ marquee {
 
 .slogan input[type="submit"] {
     width: 8%;
-    background: rgb(0, 200, 0);
+    opacity: 0.6;
+    background: grey;
     color: white;
     border-radius: 18px;
 }
@@ -115,6 +147,12 @@ marquee {
     border: 3px solid black;
     border-radius: 12px;
     padding: 12px;
+}
+
+.category {
+    background: purple;
+    padding: 2%;
+    font-size: 160%;
 }
 
 div.background {
