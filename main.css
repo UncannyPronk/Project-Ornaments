@@ -37,6 +37,7 @@ a {
     border-radius: 12px;
     margin-left: -12px;
     margin-right: -12px;
+    text-decoration: none;
 }
 
 p {
