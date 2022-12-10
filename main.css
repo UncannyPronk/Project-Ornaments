@@ -16,13 +16,13 @@ h2 {
     color: rgb(0, 255, 76);
     text-align: left;
     font-style: bold;
-    margin-left: 280px;
+    margin-left: 180px;
 }
 
 li {
     color: rgb(0, 247, 255);
     text-align: left;
-    margin-left: 320px;
+    margin-left: 200px;
     font-size: 40px;
 }
 
@@ -31,12 +31,12 @@ a {
     font-size: 75%;
     background: rgb(0, 0, 0);
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: algerian;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: sans-serif;
     border-radius: 12px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -12px;
+    margin-right: -12px;
 }
 
 p {
@@ -57,6 +57,22 @@ marquee {
     margin-top: -40px;
 }
 
+.slogan input {
+    border-radius: 10px;
+    width: 45%;
+    height: 48px;
+    font-size: 24px;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+
+.slogan input[type="submit"] {
+    width: 8%;
+    background: rgb(0, 200, 0);
+    color: white;
+    border-radius: 18px;
+}
+
 .title {
     font-family: papyrus;
     font-size: 28px;
@@ -72,36 +88,18 @@ marquee {
 
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 
     margin-left: -10px;
-    margin-right: 8px;
+    margin-right: 60px;
 }
 
 .jump_to_top {
     background-image: linear-gradient(rgb(76, 76, 76), grey, rgb(76, 76, 76), rgb(24, 24, 24));
-    color: rgb(0, 255, 251);
+    color: rgb(225, 255, 0);
     font-size: 30px;
-    margin-left: 1200px;
-}
-
-.searchbar {
-    background: white;
-    color: black;
-    font-family: sans-serif;
-    font-size: 30px;
-    width: 60%;
-    height: 60px;
-    margin-top: -60px;
-    margin-bottom: -40px;
-    margin-left: 10px;
-    margin-right: 6px;
-    border: 3px solid black;
-    border-radius: 12px;
-    padding: 12px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 400px;
 }
 
 .search_button {
@@ -130,8 +128,9 @@ div.transbox {
     margin: 120px;
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-bottom: 30px;
     background: black;
-    opacity: 0.6;
+    opacity: 0.75;
 }
 
 div.slogan {
