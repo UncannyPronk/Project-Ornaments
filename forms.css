@@ -45,6 +45,7 @@ a {
     border: none;
     border-bottom: 1px solid red;
     outline: none;
+    color: grey;
 }
 
 .transbox input[type="submit"] {
