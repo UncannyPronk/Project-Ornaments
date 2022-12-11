@@ -14,7 +14,8 @@ body {
     background: black;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-size:30px;
+    font-size:24px;
+    font-family: sans-serif;
 }
 
 h2 {
@@ -173,7 +174,7 @@ marquee {
 }
 
 div.background {
-    background: linear-gradient(rgb(120, 54, 10), rgb(0, 0, 0));
+    background: linear-gradient(rgb(13, 164, 181), rgb(0, 0, 0));
     margin-top: -36px;
     margin-left: -8px;
     margin-right: -8px;
@@ -190,8 +191,8 @@ div.transbox {
 }
 
 div.slogan {
-    background-image: linear-gradient(rgb(115, 115, 115), rgb(82, 82, 82), rgb(120, 54, 10));
-    color:rgb(255, 126, 221);
+    background-image: linear-gradient(rgb(115, 115, 115), rgb(82, 82, 82), rgb(15, 177, 195));
+    color:rgb(168, 165, 0);
     font-family: 'brush script mt';
     font-size: 60px;
     width:101.2%;
@@ -204,7 +205,7 @@ div.slogan {
 }
 
 div.slogan:hover {
-    color:rgb(250, 75, 204);
+    color:rgb(135, 0, 92);
 }
 
 div.footer {
