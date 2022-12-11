@@ -65,12 +65,11 @@ a {
 }
 
 a:hover {
-    color: rgb(108, 108, 108);
+    color: rgb(117, 117, 117);
 }
 
 p {
-    background: #222;
-    color: rgb(234, 255, 0);
+    color: white;
     padding: 8px, 6px;
 }
 
@@ -119,9 +118,9 @@ marquee {
     font-family: papyrus;
     font-size: 28px;
 
-    background: rgb(250, 247, 178);
+    background:radial-gradient(rgb(209, 208, 149), rgb(172, 170, 121));
     color: red;
-
+    
     border-radius: 30px;
     border-bottom-style: dashed;
     border-left-style: dashed;
@@ -139,15 +138,18 @@ marquee {
 }
 
 .title:hover {
-    background:rgb(180, 180, 120);
+    background: radial-gradient(rgb(250, 247, 178), rgb(161, 160, 114));
     color: red;
 }
 
 .jump_to_top {
-    background-image: linear-gradient(rgb(76, 76, 76), grey, rgb(76, 76, 76), rgb(24, 24, 24));
-    color: rgb(225, 255, 0);
+    background-image: radial-gradient(rgb(76, 76, 76), rgb(76, 76, 76), black, rgb(0, 0, 0));
+    color: rgb(183, 183, 183);
     font-size: 30px;
-    margin-left: 400px;
+}
+
+.jump_to_top:hover {
+    color: rgb(173, 96, 204);
 }
 
 .search_button {
@@ -171,7 +173,7 @@ marquee {
 }
 
 div.background {
-    background-image: url("images/background.jpg");
+    background: linear-gradient(rgb(120, 54, 10), rgb(0, 0, 0));
     margin-top: -36px;
     margin-left: -8px;
     margin-right: -8px;
@@ -188,7 +190,7 @@ div.transbox {
 }
 
 div.slogan {
-    background-image: linear-gradient(rgb(115, 115, 115), rgb(82, 82, 82), rgb(27, 54, 101));
+    background-image: linear-gradient(rgb(115, 115, 115), rgb(82, 82, 82), rgb(120, 54, 10));
     color:rgb(255, 126, 221);
     font-family: 'brush script mt';
     font-size: 60px;
@@ -203,6 +205,52 @@ div.slogan {
 
 div.slogan:hover {
     color:rgb(250, 75, 204);
+}
+
+div.footer {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+div.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.app h4 {
+    margin-left: 0px;
+}
+
+div.app p {
+    color: rgb(95, 95, 95);
+    font-size: 24px;
+}
+
+div.socials h4 {
+    margin-left: 20px;
+}
+
+div.socials li {
+    margin-left: -20px;
+    color: rgb(95, 95, 95);
+    font-size: 24px;
+    padding-bottom: 10px;
+    margin-left: -4px;
+}
+
+div.main strong {
+    margin-left: -10px;
+}
+
+div.main p{
+    margin-left: -60px;
+    color:rgb(255, 126, 221);
+    font-family: 'brush script mt';
+    font-size: 36px;
 }
 
 #header {
