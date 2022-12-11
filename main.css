@@ -36,11 +36,10 @@ h3 {
 h4 {
     color: rgb(255, 255, 255);
     text-align: left;
-    font-style: none;
     margin-top: 10px;
-    margin-left: 60px;
-    font-family: papyrus, 'brush script mt';
-    font-size: 40px;
+    margin-left: 240px;
+    font-family: sans-serif, 'brush script mt';
+    font-size: 30px;
 }
 
 li {
@@ -62,6 +61,11 @@ a {
     margin-left: -12px;
     margin-right: -12px;
     text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: rgb(108, 108, 108);
 }
 
 p {
@@ -88,7 +92,7 @@ marquee {
 
 .slogan input {
     background: lightgrey;
-    opacity: 0.2;
+    opacity: 0.6;
     color: black;
     border-radius: 10px;
     width: 45%;
@@ -100,10 +104,15 @@ marquee {
 
 .slogan input[type="submit"] {
     width: 8%;
-    opacity: 0.6;
-    background: grey;
+    opacity: 0.5;
+    background: black;
     color: white;
     border-radius: 18px;
+    transition: background 0.3s;
+}
+
+.slogan input[type="submit"]:hover {
+    background: rgb(12, 108, 60);
 }
 
 .title {
@@ -126,6 +135,12 @@ marquee {
 
     margin-left: -10px;
     margin-right: 60px;
+    transition: background 0.5s;
+}
+
+.title:hover {
+    background:rgb(180, 180, 120);
+    color: red;
 }
 
 .jump_to_top {
@@ -173,7 +188,7 @@ div.transbox {
 }
 
 div.slogan {
-    background-image: linear-gradient(rgb(115, 115, 115), rgb(82, 82, 82), rgb(46, 84, 150));
+    background-image: linear-gradient(rgb(115, 115, 115), rgb(82, 82, 82), rgb(27, 54, 101));
     color:rgb(255, 126, 221);
     font-family: 'brush script mt';
     font-size: 60px;
@@ -182,6 +197,12 @@ div.slogan {
     margin-top: -40px;
     margin-bottom: -30px;
     padding-bottom: 10px;
+    padding-top: -60px;
+    transition: color 0.6s;
+}
+
+div.slogan:hover {
+    color:rgb(250, 75, 204);
 }
 
 #header {

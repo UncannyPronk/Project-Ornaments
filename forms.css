@@ -73,6 +73,11 @@ a {
 
     margin-left: -10px;
     margin-right: 60px;
+    transition: background 0.5s;
+}
+
+.title:hover {
+    background:rgb(180, 180, 120);
 }
 
 .transbox input[type="submit"] {
@@ -83,4 +88,8 @@ a {
     padding-right: 10px;
     margin-bottom: 40px;
     font-family: serif;
+}
+
+.transbox input[type="submit"]:hover {
+    background: darkgreen;
 }
